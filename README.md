@@ -94,6 +94,34 @@ void loop() {
   BLEMidiServer.noteOff(60, 0, 1);
   delay(500);
 }
+## История изменений (Changelog)
+
+🆕 v1.3.0 (Октябрь 2025)
+	•	Добавлена полная поддержка ESP32-S3 / M5Stack Cardputer
+	•	Объединён Server + Client (двусторонний MIDI)
+	•	Добавлены методы noteOn(), noteOff()
+	•	Исправлены колбэки onConnect() / onDisconnect()
+	•	Переработана структура под Arduino IDE 2.3.x
+	•	Добавлен пример BidirectionalDemo.ino
+
+⸻
+
+⚙️ v1.2.1 (Сентябрь 2025)
+	•	Исправлены ошибки компиляции в BLEMidiServer.h и BLEMidiClient.h
+	•	Приведены сигнатуры к NimBLEServerCallbacks / NimBLEClientCallbacks
+	•	Удалены старые пути /utility и конфликтующие include’ы
+	•	Добавлен library.properties с метаданными
+	•	Оптимизирована работа под macOS (ARM64)
+
+⸻
+
+🧩 v1.1.0 (Август 2025)
+	•	Базовая адаптация библиотеки под NimBLE-Arduino
+	•	Исправления под ESP-IDF 5.x
+	•	Начальная совместимость с ESP32-S3
+	•	Оптимизация BLE-соединения и уменьшение памяти
+
+⸻
 
 🧰 Установка
 	1.	Скачайте архив ESP32-BLE-MIDI_Fixed.zip
