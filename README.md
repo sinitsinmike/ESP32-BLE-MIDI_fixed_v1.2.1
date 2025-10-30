@@ -94,7 +94,7 @@ void loop() {
   BLEMidiServer.noteOff(60, 0, 1);
   delay(500);
 }
-## История изменений (Changelog)
+## ⚙️ История изменений (Changelog)
 
 🆕 v1.3.0 (Октябрь 2025)
 	•	Добавлена полная поддержка ESP32-S3 / M5Stack Cardputer
