@@ -94,6 +94,9 @@ void loop() {
   BLEMidiServer.noteOff(60, 0, 1);
   delay(500);
 }
+
+---
+
 ## ⚙️ История изменений (Changelog)
 
 🆕 v1.3.0 (Октябрь 2025)
